@@ -1,0 +1,94 @@
+head{
+  font-size:40px;
+  text-align:center;
+}
+body{
+  padding-top: 800px;
+  background-color:whitesmoke;
+    text-align:center;
+}
+
+.profile{
+  width: 200px;
+  margin-bottom: 50px;
+  border-radius:50%;
+}
+
+#welcome{
+  position:absolute;
+  overflow: hidden;
+  color: black;
+  height: 800px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0.83;
+  background:linear-gradient(#2E86c1 0%, #a569bd 100%);
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+h1{
+font-size: 40px;
+line-height: 1.2;
+font-family: serif;
+font-weight: 300;
+}
+
+h2{
+  font-size: 30px;
+line-height: 1.2;
+font-family: fantasy;
+font-weight: 300;
+}
+
+#name{
+  font-size: 70px;
+  line-height: 1.2;
+  font-family: 'MonterCarlo', cursive;
+}
+
+#bio{
+  padding: 50px;
+  text-align: center;
+  font-size: 42px;
+}
+
+.line{
+  height:6px;
+  background-color: black;
+  width: 80px;
+  margin: 8px auto;
+}
+
+p {
+  
+}
+
+.menu{
+  font-family: fantasy;
+  position: fixed;
+  top: 10px;
+  right: 30px;
+  margin-top: 0px;
+  z-index: 10;
+  list-style: none;
+  font-size: 25px;
+
+}
+
+.links{
+  display: inline;
+  color: aqua;
+  padding-left: 9px;
+  padding-right: 9px;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.links:hover{
+  text-decoration: underline;
+  font-size: 25px;
+}
